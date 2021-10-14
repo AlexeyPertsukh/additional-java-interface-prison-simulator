@@ -1,10 +1,10 @@
 package prog;
 
 //гражданский сотрудник
-public class Personnal extends Human{
+public class Staff extends Human{
     String work;
 
-    public Personnal(String name, String lastName, String nation, String work){
+    public Staff(String name, String lastName, String nation, String work){
         super(name,lastName,nation);
         this.work = work;
     }

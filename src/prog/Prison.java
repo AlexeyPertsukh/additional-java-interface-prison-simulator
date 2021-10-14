@@ -17,8 +17,8 @@ public class Prison {
         humans[2] = new Prisoner("Марк","Цукерберг","Ирландия",20);
         humans[3] = new Security("Света","Деканат","Украина","майор");
         humans[4] = new Security("Дима","Полиновский","Украина","лейтенант");
-        humans[5] = new Personnal("Руслан","Петров","Мексика","уборщик");
-        humans[6] = new Personnal("Максим","Сидоров","Аргентина","водитель");
+        humans[5] = new Staff("Руслан","Петров","Мексика","уборщик");
+        humans[6] = new Staff("Максим","Сидоров","Аргентина","водитель");
 
         prisonList();
 
@@ -129,7 +129,7 @@ public class Prison {
                 cntPrisoner++;
             } else if (human instanceof Security) {
                 cntSecurity++;
-            } else if (human instanceof Personnal) {
+            } else if (human instanceof Staff) {
                 cntPersonal++;
             }
         }
